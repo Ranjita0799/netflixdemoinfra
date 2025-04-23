@@ -4,7 +4,7 @@ region = "us-east-1"
 
 resource "aws_instance" "ranji" {
 count = 4
-ami = "ami-07a6f770277670015"
+ami = "ami-0b86aaed8ef90e45f"
 instance_type = "t2.medium"
 key_name = "terr-key"
 vpc_security_group_ids = ["sg-01680489c767e1dcd"]
